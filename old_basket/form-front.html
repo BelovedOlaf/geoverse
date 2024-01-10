@@ -1,0 +1,343 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html><head>
+
+		<style>
+
+   
+
+body {
+        background: #fff;
+        height: 100vh;
+        margin: 0;
+}
+
+
+
+.formify-bg-cover {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+}
+.container {
+        max-width: 1260px;
+        margin: 0 auto;
+}
+
+.col-12 {
+        flex: 0 0 auto;
+        width: 100%;
+}
+.formify-form__layout--v11 {
+        gap: 40px;
+}
+.formify-form__layout {
+    
+        display: flex;
+        overflow: hidden;
+}
+.formify-form__banner.formify-form__banner--v11 {
+        align-items: start;
+        justify-content: initial;
+        padding-top: 140px !important;
+}
+
+.formify-form__banner {
+        display: flex !important;
+        flex-direction: column;
+        justify-content: center;
+        min-height: 100vh;
+        align-items: center;
+        padding: 100px;
+}
+.p-0 {
+        padding: 0!important;
+}
+.formify-form__banner--inner {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        max-width: 750px;
+}
+.formify-form__layout div {
+        position: relative;
+}
+.formify-form__banner--title.formify-form__banner--title-v2 {
+        font-size: 90px;
+        font-weight: 700;
+        line-height: 90px;
+        text-shadow: 4px 4px 4px #000000ab;
+}
+.formify-form__banner--title {
+        color: #fff;
+        margin-bottom: 30px;
+        font-size: 28px;
+}
+.formify-form__bdoner {
+        display: flex;
+        align-items: center;
+        gap: 25px;
+}
+.img {
+        height: auto;
+        max-width: 100%;
+}
+.formify-form__bdoner-content {
+        color: #fff;
+}
+.formify-form__layout--column {
+        min-width: 50% !important;
+        max-width: 50% !important;
+}
+.formify-form__area.formify-form__area--v11 {
+        padding: 0;
+        padding-top: 100px;
+        justify-content: end;
+        align-items: end;
+}
+.formify-form__area {
+        display: flex;
+        flex-direction: column;
+        padding: 50px 150px;
+        align-items: center;
+}
+.formify-form__inner--v11 {
+        padding: 40px;
+        border-radius: 4px;
+        background: #FFF;
+        box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.15);
+        min-width: 520px;
+}
+.formify-form__inner {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        max-width: 500px;
+}
+.row {
+        --bs-gutter-x: 1.5rem;
+        --bs-gutter-y: 0;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: calc(-1 * var(--bs-gutter-y));
+        margin-right: calc(-.5 * var(--bs-gutter-x));
+        margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+
+.formify-forms__title {
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #E5E5E5;
+}
+.formify-forms__title.formify-forms__title--small {
+        font-size: 16px;
+        font-weight: 600;
+}
+.formify-forms .form-group {
+        position: relative;
+}
+.formify-mg-top-20 {
+        margin-top: 20px !important;
+}
+.formify-forms__method {
+        display: flex;
+        gap: 30px;
+}
+.formify-forms__checkbox {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        cursor: pointer;
+}
+.formify-checkbox-v2[type="checkbox"] {
+        border-radius: 100px !important;
+        width: 20px !important;
+        height: 20px !important;
+}
+
+.input[type="checkbox"] {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        outline: none;
+        cursor: pointer;
+        position: relative;
+        padding: 0 !important;
+        background: transparent !important;
+        width: 15px;
+        height: 15px;
+        border: 1px solid red;
+        border-radius: 3px;
+        margin-right:12px ;    
+    }
+.formify-forms input {
+        color: #4B5563 !important;
+        display: flex;
+        align-items: center;
+        width: 35rem;
+        height: 2rem;
+        border-bottom: 1px solid #242424 !important;
+        border-radius: 3px;
+}
+.checkbox {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        cursor: pointer;
+}
+
+h2.congrats-text {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.4;
+}
+
+h2.congrats-ftr-text {
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 1.4;
+}
+h3.age-ver {
+        font-size: 17px;
+        font-weight: 400;
+        padding: 5px;
+}
+h3.registered-alert {
+        font-size: 17px;
+        font-weight: 400;
+        padding: 5px;
+}
+input.plchldr {
+        width: 30rem;
+        padding: 10px 0px 10px 20px;
+        height: 20px;
+}
+h4.plchldr-name {
+        font-size: 17px;
+        font-weight: 600;
+}
+p.formify-form__banner--text.formify-form__banner--text-v2 {
+        font-size: 32px;
+        font-weight: 600;
+        color: #fff;
+        text-shadow: 3px 3px 5px #0000007d;
+        background-color: #f23d3d;
+        height: 43px;
+        padding: 4px 0px 3px 25px;
+        width: 425px;
+                border-radius: 4px;
+}
+.form-checkbox {
+        display: flex;
+}
+.formify-btn {
+        background-color: #f23d3d;
+        padding: 10px 40px 10px 40px;
+        border: none;
+        border-radius: 4px;
+        box-shadow: 2px 2px 8px #00000052;
+}
+a.clear-form {
+        text-decoration: none;
+        color: #ff2d2d;
+        float: right;
+        font-size: 15px;
+}
+.formify-forms__button {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+label.m-0 {
+        font-size: 15px;
+}
+
+
+		</style>
+
+	</head>
+
+
+
+	<body>
+
+	<div class="body-bg formify-donate-layout1">
+		
+	<section class="formify-form formify-bg-cover"  style="background-image:url('assets/img/background-2.jpg');">
+				<div class="container p-0">
+					<div class="row">
+						<div class="col-12">
+							<!-- Welcome Banner -->
+							<div class="formify-form__layout formify-form__layout--v11 formify-bg-none">
+								<!-- Form Banner -->
+								<div class="formify-form__banner formify-form__banner--v11 p-0">
+									<div class="formify-form__banner--inner">
+										<div class="formify-form__banner--content">
+											<h2 class="formify-form__banner--title formify-form__banner--title-v2">Basket Brigade UK 2023 -</h2>
+											<p class="formify-form__banner--text formify-form__banner--text-v2">ABLY Volunteer Sign Up</p>
+										</div>										
+									</div>
+								</div>
+								<!-- End Form Banner -->
+								<div class="formify-form__layout--column">
+									<!-- Form Area -->
+									<div class="formify-form__area formify-form__area--v11">
+										<div class="formify-form__inner formify-form__inner--v11">
+
+
+															<div class="top-text">
+                                                              <h2 class="congrats-text">CONGRATULATIONS on joining the ABLY Team. Please use this form to sign up to volunteer for Basket Brigade UK on 23rd December 2023 (entry between 8am - 10am).</h2>  
+                                                              <h3 class="age-ver">Please complete one form per adult (16 and over).</h3>
+                                                              <h3 class="registered-alert">We will not be able to allow entry to anyone on the day who has not registered.</h3>
+															</div>
+														
+														
+													
+															<div class="email-input">
+                                                                <h4 class="plchldr-name">Email</h4>
+                                                                <input class="plchldr" type="email" name="last-name" placeholder="Email" required="required">
+                                                            </div>													
+
+														
+                                                                <div class="middle-text">
+                                                                 <h2 class="congrats-ftr-text">The venue for this year is Woodside High School <a href="#">(N22 5QJ).</a> (N22 5QJ). Before you begin signing up, please confirm that you are able to attend at this venue on 23rd December.</h2>                                                            
+                                                                </div>
+
+																<div class="check-box-area">
+																	<div class="form-checkbox">
+                                                                        
+																		<input type="checkbox" id="form" name="check-box" value="form">
+																		<label class="m-0" for="checkbox">I can attend Woodside High School, N22 5QJ on 23rd December.</a></label>
+																	</div>
+																</div>
+															
+																<div class="formify-forms__button">
+                                                             
+                                                                    <button class="formify-btn">Next</button>
+                                                                    <a class="clear-form" href="https://basketbrigade.webariansoftwares.com/">Clear Form</a>
+																	
+																</div>
+															</div>
+														</div>
+													</div>
+													<!-- Form Group -->
+												</form>	
+												<!-- End Form Area -->
+											</div>
+										</div>
+									</div>
+									<!-- End Form Area -->
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			
+		</div>
+		
+
+
+
+
+</body></html>
